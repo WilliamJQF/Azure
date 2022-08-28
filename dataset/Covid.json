@@ -9,14 +9,166 @@
 		"type": "DelimitedText",
 		"typeProperties": {
 			"location": {
-				"type": "HttpServerLocation",
-				"relativeUrl": "https://github.com/owid/covid-19-data/raw/master/public/data/excess_mortality/excess_mortality.csv"
+				"type": "HttpServerLocation"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
 			"firstRowAsHeader": true,
 			"quoteChar": "\""
 		},
-		"schema": []
+		"schema": [
+			{
+				"name": "location",
+				"type": "String"
+			},
+			{
+				"name": "date",
+				"type": "String"
+			},
+			{
+				"name": "p_scores_all_ages",
+				"type": "String"
+			},
+			{
+				"name": "p_scores_15_64",
+				"type": "String"
+			},
+			{
+				"name": "p_scores_65_74",
+				"type": "String"
+			},
+			{
+				"name": "p_scores_75_84",
+				"type": "String"
+			},
+			{
+				"name": "p_scores_85plus",
+				"type": "String"
+			},
+			{
+				"name": "deaths_2020_all_ages",
+				"type": "String"
+			},
+			{
+				"name": "average_deaths_2015_2019_all_ages",
+				"type": "String"
+			},
+			{
+				"name": "deaths_2015_all_ages",
+				"type": "String"
+			},
+			{
+				"name": "deaths_2016_all_ages",
+				"type": "String"
+			},
+			{
+				"name": "deaths_2017_all_ages",
+				"type": "String"
+			},
+			{
+				"name": "deaths_2018_all_ages",
+				"type": "String"
+			},
+			{
+				"name": "deaths_2019_all_ages",
+				"type": "String"
+			},
+			{
+				"name": "deaths_2010_all_ages",
+				"type": "String"
+			},
+			{
+				"name": "deaths_2011_all_ages",
+				"type": "String"
+			},
+			{
+				"name": "deaths_2012_all_ages",
+				"type": "String"
+			},
+			{
+				"name": "deaths_2013_all_ages",
+				"type": "String"
+			},
+			{
+				"name": "deaths_2014_all_ages",
+				"type": "String"
+			},
+			{
+				"name": "deaths_2021_all_ages",
+				"type": "String"
+			},
+			{
+				"name": "time",
+				"type": "String"
+			},
+			{
+				"name": "time_unit",
+				"type": "String"
+			},
+			{
+				"name": "p_scores_0_14",
+				"type": "String"
+			},
+			{
+				"name": "projected_deaths_2020_2022_all_ages",
+				"type": "String"
+			},
+			{
+				"name": "excess_proj_all_ages",
+				"type": "String"
+			},
+			{
+				"name": "cum_excess_proj_all_ages",
+				"type": "String"
+			},
+			{
+				"name": "cum_proj_deaths_all_ages",
+				"type": "String"
+			},
+			{
+				"name": "cum_p_proj_all_ages",
+				"type": "String"
+			},
+			{
+				"name": "p_proj_all_ages",
+				"type": "String"
+			},
+			{
+				"name": "p_proj_0_14",
+				"type": "String"
+			},
+			{
+				"name": "p_proj_15_64",
+				"type": "String"
+			},
+			{
+				"name": "p_proj_65_74",
+				"type": "String"
+			},
+			{
+				"name": "p_proj_75_84",
+				"type": "String"
+			},
+			{
+				"name": "p_proj_85p",
+				"type": "String"
+			},
+			{
+				"name": "cum_excess_per_million_proj_all_ages",
+				"type": "String"
+			},
+			{
+				"name": "excess_per_million_proj_all_ages",
+				"type": "String"
+			},
+			{
+				"name": "deaths_2022_all_ages",
+				"type": "String"
+			},
+			{
+				"name": "deaths_2020_2022_all_ages",
+				"type": "String"
+			}
+		]
 	}
 }

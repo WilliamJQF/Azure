@@ -1,5 +1,5 @@
 {
-	"name": "DelimitedText",
+	"name": "Covid",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "HttpServerPublic",

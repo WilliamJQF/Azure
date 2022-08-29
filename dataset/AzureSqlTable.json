@@ -9,7 +9,8 @@
 		"type": "AzureSqlTable",
 		"schema": [],
 		"typeProperties": {
-			"schema": "myDB"
+			"schema": "myDB",
+			"table": "COVID_Data"
 		}
 	}
 }

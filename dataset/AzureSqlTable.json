@@ -7,10 +7,23 @@
 		},
 		"annotations": [],
 		"type": "AzureSqlTable",
-		"schema": [],
+		"schema": [
+			{
+				"name": "ubicacion",
+				"type": "nvarchar"
+			},
+			{
+				"name": "fecha",
+				"type": "nvarchar"
+			},
+			{
+				"name": "deaths_2022_all_ages",
+				"type": "nvarchar"
+			}
+		],
 		"typeProperties": {
-			"schema": "myDB",
-			"table": "COVID_Data"
+			"schema": "dbo",
+			"table": "COVID_DATA"
 		}
 	}
 }

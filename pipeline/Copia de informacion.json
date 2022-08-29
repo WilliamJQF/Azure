@@ -38,50 +38,6 @@
 					"enableStaging": false,
 					"translator": {
 						"type": "TabularTranslator",
-						"mappings": [
-							{
-								"source": {
-									"name": ""
-								},
-								"sink": {
-									"name": "ChainID",
-									"type": "Int32",
-									"physicalType": "int"
-								}
-							},
-							{
-								"source": {
-									"name": ""
-								},
-								"sink": {
-									"name": "width",
-									"type": "Decimal",
-									"physicalType": "decimal",
-									"scale": 2,
-									"precision": 10
-								}
-							},
-							{
-								"source": {
-									"name": ""
-								}
-							},
-							{
-								"source": {
-									"name": ""
-								}
-							},
-							{
-								"source": {
-									"name": ""
-								}
-							},
-							{
-								"source": {
-									"name": ""
-								}
-							}
-						],
 						"typeConversion": true,
 						"typeConversionSettings": {
 							"allowDataTruncation": false,
